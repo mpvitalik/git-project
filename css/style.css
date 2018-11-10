@@ -1,0 +1,149 @@
+body {
+	font-family: Nunito, Arial, sans-serif;
+	font-size: 16px;
+	margin: 0;
+}
+
+p {
+	color: #848484;
+}
+
+.container {
+    margin: 0 auto;
+	width: 1600px;
+	max-width: 100%;
+}
+
+.header {
+	height: 610px;
+	background: url(../img/header.png);
+	background-repeat-x: no-repeat;
+	margin: 0 auto;
+}
+
+.logo {
+	font-size: 72px;
+	color: #fff;
+	position: relative;
+	padding-left: 140px;
+	padding-top: 200px;
+	font-family: Cookie, Arial, sans-serif;
+}
+
+.logotext {
+	font-size: 24px;
+	color: #fff;
+	position: relative;
+	padding: 10px 0;
+	width: 390px;
+	padding-left: 140px;
+}
+
+.buttons {
+	position: relative;
+	padding-left: 140px;
+}
+
+.icons {
+	height: 300px;
+	background-color: #fff;
+	text-align: center;
+	margin-top: 60px;
+
+}
+
+.allicons {
+	display: -webkit-inline-box;
+}
+
+.icontwo {
+	padding: 0 100px;
+	position: relative;
+}
+
+.video {
+	height: 430px;
+	background-color: #E3E3E3;
+	display: -webkit-inline-box;
+}
+
+.vd {
+	padding-top: 50px;
+	padding-left: 50px;
+}
+
+.form {
+	width: 50%;
+	padding-top: 50px;
+	padding-left: 100px;
+}
+
+.button {
+	width: 130px;
+	height: 42px;
+	border: none;
+    background-color: #2ecc71;
+	border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+	color: #fff;
+	font-size: 22px;
+	position: absolute;
+	cursor: pointer
+}
+
+.pole {
+	width: 250px;
+	height: 40px;
+	border: none;
+	border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.faces {
+	height: 400px;
+	background-color: #fff;
+	text-align: center;
+}
+
+.firstimg  {
+  -webkit-mask-image: -webkit-gradient(linear, left top, 
+    right top, from(rgba(0,0,0,0)), to(rgba(0,0,0,1)));
+  }
+  
+  .lastimg  {
+  -webkit-mask-image: -webkit-gradient(linear, left top, 
+    right top, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+  }
+
+.footer {
+	height: 130px;
+	background-color: #E3E3E3;
+	text-align: center;
+	position: relative;
+}
+
+.menu {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+	position: absolute;
+	top: 30%;
+	left: 35%;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #666;
+  display: inline-block;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.menu a:hover{
+  text-decoration: none;
+  color: #2ECC71;
+}
